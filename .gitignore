@@ -1,0 +1,54 @@
+# =========================
+# Java / Spring Boot
+# =========================
+backend/target/
+*.class
+*.jar
+
+# =========================
+# Node / React
+# =========================
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/build/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Gemini API key
+GEMINI_API_KEY
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Generated honeypots
+# =========================
+backend/generated_honeypots/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
